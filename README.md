@@ -16,6 +16,11 @@ This is a Streamlit-based interactive medical assistant chatbot designed to assi
 
 ---
 
+## 🚀 Live Demo
+Access the deployed chatbot here: **[Medical Assistant Chatbot](https://medicalgrocagent.streamlit.app/)**
+
+---
+
 ## 🚀 Installation
 
 ### 1️⃣ Clone the Repository
@@ -90,4 +95,3 @@ For any inquiries, reach out to `your.email@example.com`.
 ---
 
 🚀 **Happy Coding & Stay Healthy!** 🩺
-
