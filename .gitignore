@@ -1,26 +1,4 @@
 # Ignore environment files
 .env
-
-# Ignore development container configuration
 .devcontainer/
-
-# Ignore the ggrokk folder
-ggrokk/
-
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environment
-venv/
-.env/
-
-# Logs and databases
-*.log
-*.sqlite3
-*.db
-
-# OS-specific files
-.DS_Store
-Thumbs.db
+grokk/
