@@ -1,3 +1,32 @@
+# Ignore environment-specific and IDE files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore Python virtual environment
+ggrokk/
+ggrokk/*
+
+# Ignore environment variables and secrets
 .env
-.devcontainer
-./ggrokk
+
+# Ignore dependencies installed in .devcontainer
+.devcontainer/
+.devcontainer/*
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore package manager files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore VSCode workspace settings
+.vscode/
