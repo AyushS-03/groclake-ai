@@ -1,32 +1,10 @@
-# Ignore environment-specific and IDE files
-__pycache__/
-*.pyc
-*.pyo
-*.log
+ # Ignore everything
+*
 
-# Ignore Python virtual environment
-ggrokk/
-ggrokk/*
+# Allow only specific files
+!app.py
+!README.md
+!requirements.txt
 
-# Ignore environment variables and secrets
-.env
-
-# Ignore dependencies installed in .devcontainer
-.devcontainer/
-.devcontainer/*
-
-# Ignore build artifacts
-dist/
-build/
-*.egg-info/
-
-# Ignore system files (macOS, Windows)
-.DS_Store
-Thumbs.db
-
-# Ignore package manager files
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Ignore VSCode workspace settings
-.vscode/
+# Ensure .gitignore itself is not ignored
+!.gitignore
