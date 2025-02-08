@@ -56,10 +56,7 @@ medical-assistant-chatbot/
 │── app.py               # Main Streamlit app
 │── requirements.txt     # Required dependencies
 │── .env                 # API keys (not included in version control)
-│── README.md            # Documentation
-│── database/            # SQLite database storage
-│── utils/               # Helper functions
-└── models/              # ML models & processing logic
+└── README.md            # Documentation
 ```
 
 ---
