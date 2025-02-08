@@ -1,10 +1,26 @@
- # Ignore everything
-*
+# Ignore environment files
+.env
 
-# Allow only specific files
-!app.py
-!README.md
-!requirements.txt
+# Ignore development container configuration
+.devcontainer/
 
-# Ensure .gitignore itself is not ignored
-!.gitignore
+# Ignore the ggrokk folder
+ggrokk/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
