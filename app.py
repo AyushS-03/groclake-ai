@@ -7,8 +7,8 @@ from groclake.vectorlake import VectorLake
 import docx
 import PyPDF2
 
-os.environ['GROCLAKE_API_KEY'] = '013d407166ec4fa56eb1e1f8cbe183b9'
-os.environ['GROCLAKE_ACCOUNT_ID'] = '3838e00de26b4f0c6e8e84d7ea89e566'
+os.environ['GROCLAKE_API_KEY'] = 'GROCLAKE_API_KEY'
+os.environ['GROCLAKE_ACCOUNT_ID'] = 'GROCLAKE_ACCOUNT_ID'
 modellake = ModelLake()
 vectorlake = VectorLake()
 
